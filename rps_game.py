@@ -6,7 +6,7 @@ scissors = 'Scissors'
 won = 0
 lost = 0
 
-player_choice = input('Welcome to the big RPS battle! Press any key to continue: ')
+player_choice = input('Welcome to the grand RPS battle! Press any key to continue: ')
 
 while True:
     player_choice = input('Choose (r)ock, (p)aper, or (s)cissors to play or stop to exit the game : ')
