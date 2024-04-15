@@ -35,11 +35,12 @@ while True:
     if (player_choice == rock and computer_move == scissors) or (player_choice == paper and computer_move == rock) or (player_choice == scissors and computer_move == paper):
         print('You win!')
         won += 1
-        print(f'Score: Player {won} : {lost} Computer')
+
     elif player_choice == computer_move:
         print('Draw!')
     else:
         print('You lose!')
         lost += 1
-        print(f'Score: Player {won} : {lost} Computer')
+        
+    print(f'Score: Player {won} : {lost} Computer')
 
