@@ -28,15 +28,7 @@ while True:
     else:
         print('Invalid Input. Try again...')
 
-    computer_random_number = random.randint(1, 3)
-    computer_move = ''
-
-    if computer_random_number == 3:
-        computer_move = scissors
-    elif computer_random_number == 2:
-        computer_move = paper
-    else:
-        computer_move = rock
+  computer_move = random.choice((rock, paper, scissors))
 
     print(f'The computer chose {computer_move}.')
 
